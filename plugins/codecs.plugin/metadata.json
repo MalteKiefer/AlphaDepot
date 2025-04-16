@@ -1,0 +1,18 @@
+{
+	"icon": "applications-multimedia",
+	"label": "Multimedia codecs",
+	"description": "Utilized by multimedia applications to encode or decode audio or video streams.",
+	"license": [ "BSD", "GPLv2", "LGPLv2", "GFDL" ],
+	"category": "Utilities",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s remove.sh"
+		},
+		"status": { "command": "sh status.sh" }
+	}
+}

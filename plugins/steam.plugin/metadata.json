@@ -1,0 +1,18 @@
+{
+	"icon": "steam",
+	"label": "Steam",
+	"description": "The ultimate online game platform.",
+	"license": "Proprietary",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root dnf -y install steam"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root dnf -y remove steam"
+		},
+		"status": { "command": "rpm --quiet --query steam" }
+	}
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2015 Satyajit Sahoo <satyajit.happy@gmail.com> -->
+<application>
+	<id type="desktop">
+		com.alephalpha.alphadepot.desktop
+	</id>
+	<licence>
+		GFDL
+	</licence>
+	<name>
+		AlphaDepot
+	</name>
+	<summary>
+		Install codecs, software, and more...
+	</summary>
+	<description>
+		<p>
+			AlphaDepot lets you install multimedia codecs and additional software that
+			Fedora doesn't want to ship, like h264 support, Adobe Flash, Oracle Java
+			etc., and much more with just a few clicks.
+		</p>
+	</description>
+	<screenshots>
+		<screenshot type="default" width="800" height="647">
+			https://github.com/malte.kiefer/AlphaDepot/raw/master/alphadepot-screenshot-0.png
+		</screenshot>
+	</screenshots>
+	<url type="homepage">
+		https://github.com/malte.kiefer/AlphaDepot
+	</url>
+	<updatecontact>
+		layer@aleph-alpha.com
+	</updatecontact>
+</application>

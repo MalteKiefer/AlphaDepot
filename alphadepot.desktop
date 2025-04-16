@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=AlphaDepot
+GenericName=AlphaDepot
+Icon=AlphaDepot
+Comment=Install codecs and additional software
+Exec=AlphaDepot
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=clean;codec;fix;install;proprietary;

@@ -1,0 +1,18 @@
+{
+	"icon": "virtualbox",
+	"label": "VirtualBox",
+	"description": "VirtualBox is a virtual machine hypervisor.",
+	"license": "GPLv2",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root dnf -y remove VirtualBox akmod-VirtualBox"
+		},
+		"status": { "command": "rpm --quiet --query VirtualBox" }
+	}
+}

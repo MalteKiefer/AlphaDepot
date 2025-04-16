@@ -1,0 +1,17 @@
+{
+	"label": "HandBrake",
+	"description": "The open source video transcoder.",
+	"license": "GPLv2",
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root dnf install HandBrake-gui"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root dnf remove HandBrake-gui"
+		},
+		"status": { "command": "rpm --quiet --query HandBrake-gui" }
+	}
+}

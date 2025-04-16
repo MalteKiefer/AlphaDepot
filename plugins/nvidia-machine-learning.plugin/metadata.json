@@ -1,0 +1,18 @@
+{
+	"icon": "nvidia-settings",
+	"label": "CUDA NVIDIA machine learning",
+	"description": "Machine learning libraries for CUDA",
+	"license": "Proprietary",
+	"category": "Development Tools",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remove",
+			"command": "run-as-root -s remove.sh "
+		},
+		"status": { "command": "rpm --quiet --query nvidia-machine-learning-repo-rhel8" }
+	}
+}
