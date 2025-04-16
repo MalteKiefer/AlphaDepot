@@ -22,11 +22,11 @@
 	</description>
 	<screenshots>
 		<screenshot type="default" width="800" height="647">
-			https://github.com/malte.kiefer/AlphaDepot/raw/master/alphadepot-screenshot-0.png
+			https://github.com/maltekiefer/AlphaDepot/raw/master/alphadepot-screenshot-0.png
 		</screenshot>
 	</screenshots>
 	<url type="homepage">
-		https://github.com/malte.kiefer/AlphaDepot
+		https://github.com/maltekiefer/AlphaDepot
 	</url>
 	<updatecontact>
 		layer@aleph-alpha.com
